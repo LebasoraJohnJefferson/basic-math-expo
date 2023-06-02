@@ -2,7 +2,7 @@
   "expo": {
     "name": "expo-basic-math",
     "slug": "expo-basic-math",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jmcmch2015.expobasicmath"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0b09bcf-8651-436d-8646-7163910e24f4"
+      }
     }
   }
 }
